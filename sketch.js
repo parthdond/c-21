@@ -2,8 +2,11 @@ var fixedRect,movingRect,fixedRect1;
 function setup() {
   createCanvas(800,400);
   fixedRect= createSprite(200, 200, 50, 80);
+  fixedRect.shapecolour="green";
   movingRect= createSprite(400, 200, 80, 30);
+  movingRect.shapecolour="green";
   fixedRect1 = createSprite(400,200,30,80);
+  fixedRect1.shapecolour="green"
 }
 
 function draw() {
